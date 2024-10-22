@@ -10,8 +10,21 @@ div
 #box1 { 
     background-color: green;
     position: static; 
-    top: 100px;
+    top: 100px; 
+    left:100px; 
+    background-image: url(Screenshot\ 2024-10-22\ 105641.png) ; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center ;
+
 } 
+
+body{ 
+    background-image: url(Screenshot\ 2024-10-22\ 105641.png);  
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
 
 #box2 { 
     background-color: blue;
