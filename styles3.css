@@ -1,16 +1,10 @@
-div 
-{ 
-     
-    background-color: crimson;  
-    border: solid black 2px;
-    display: inline-block;
-}
+
+
 
 #box1 { 
     background-color: green;
     position: static; 
-    top: 100px; 
-    left:100px; 
+    
     background-image: url(Screenshot\ 2024-10-22\ 105641.png) ; 
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -23,8 +17,9 @@ div
     height: 400px ;
     border: 4px solid black; 
     background-color: white; 
-    display: flex; 
-    flex-direction: column;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center; }
  
 body { 
     text-align: center;
