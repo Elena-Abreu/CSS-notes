@@ -62,6 +62,11 @@ body {
 border:dashed 4px orange;
 font-size: 60px;
 width: 300px;
-height: 600px;
+height: 600px; 
+background-image: url(Screenshot\ 2024-10-22\ 105641.png);
+background-size: cover;
+transform: translate(60px, 250x); 
+transform: skew(30deg)
+
 }
 
