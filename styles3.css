@@ -22,8 +22,16 @@
     justify-content: center; }
  
 body { 
-    text-align: center;
+  
 }
+
+@media (width: 600px) {}
+#box3
+    background-color: yellow 
+
+} 
+@media(width:600px){
+#box { background-color: red}
 
 
 
