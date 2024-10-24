@@ -51,10 +51,17 @@ body {
 #box5{ 
     background-color: gray;
     transition: all; 
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-ease-out;
     
 
 } 
 
 #box5:hover{ background-color: aqua; 
-border:dashed 4px orange;}
+border:dashed 4px orange;
+font-size: 60px;
+width: 300px;
+height: 600px;
+}
 
