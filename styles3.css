@@ -25,13 +25,6 @@ body {
   
 }
 
-@media (width: 600px) {}
-#box3
-    background-color: yellow 
-
-} 
-@media(width:600px){
-#box { background-color: red}
 
 
 
@@ -56,6 +49,12 @@ body {
 }  
 
 #box5{ 
-    background-color: antiquewhite;
-}
+    background-color: gray;
+    transition: all; 
+    
+
+} 
+
+#box5:hover{ background-color: aqua; 
+border:dashed 4px orange;}
 
